@@ -1,0 +1,1613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarBer Shop</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Header part start -->
+
+    <header>
+        <section id="navber_part">
+            <nav class="navbar navbar-expand-lg position-fixed top-0 start-0 end-0 ">
+                <div class="container-fluid px-5">
+                    <a class="navbar-brand align-self-center" href="#"><img src="image/logo.png" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-bold">
+                            <li class="nav-item me-xl-3 me-2 ">
+                                <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown me-xl-3 me-2 ">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Shop
+                                </a>
+                                <ul class="dropdown-menu ">
+                                    <li><a class="dropdown-item text-black" href="#">My Card</a></li>
+                                    <li><a class="dropdown-item text-black" href="#">My Checkout</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="blog.html">blog</a>
+                            </li>
+                            <li class="nav-item dropdown me-xl-3 me-2">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    pages
+                                </a>
+                                <ul class="dropdown-menu ">
+                                    <li><a class="dropdown-item text-black" href="#">Our Page</a></li>
+                                    <li><a class="dropdown-item text-black" href="#">Info</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item me-xl-3 me-2 ">
+                                <a class="nav-link" href="#">contact us</a>
+                            </li>
+
+                            <button type="button"
+                                class="btn btn-primary px-xl-3 ms-xl-4 px-1  text-capitalize fw-bolder"
+                                data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                make an appointment
+                            </button>
+
+                        </ul>
+                        <div class="header_icon fs-4 ">
+                            <button class="bg-transparent border-0"><i class="fa fa-gear me-xl-4 me-1"></i></button>
+                            <button class="bg-transparent border-0"><i
+                                    class="fa-solid fa-magnifying-glass me-xl-4 me-1"></i></button>
+                            <button class="bg-transparent border-0"><i
+                                    class="fa-regular fa-heart me-xl-4 me-1"></i></button>
+
+                            <button class="btn btn-primary d-lg-inline-block d-none" type="button"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                                aria-controls="offcanvasScrolling"><i class="fa-solid fa-cart-plus fs-3"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- Header part end -->
+    <main>
+        <!-- hero part start  -->
+        <section id="hero">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-img bg-img-1 active">
+                        <div class="carousel-caption top-0  d-md-block">
+                            <img src="./image/hero_logo.png" alt="">
+                            <h1 class="display-1 fw-bold d-flex flex-column text-uppercase">
+                                <span class="text1">Barber Shop </span>
+                                <span class="text2 lh-1 display-2 fw-bolder "> Greate <span class="primary_text">Your
+                                        Style</span></span>
+                            </h1>
+                            <p class="fs-5 fw-medium text-uppercase lh-lg text-white">we make your hair look great
+                                perfect</p>
+                            <a class=" btn btn-primary fw-bold text-uppercase rounded-0 px-xl-4 px-lg-3 py-lg-2 py-xl-3 primary_bg border-1 primary_br"
+                                href="#" role="button"> &plus; shop now</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-img bg-img-2 ">
+                        <div class="carousel-caption top-0   d-md-block">
+                            <img src="./image/hero_logo.png" alt="">
+                            <h1 class="display-1 fw-bold d-flex flex-column text-uppercase">
+                                <span class="text1">Collection </span>
+                                <span class="text2 lh-1 display-2 fw-bolder"> Greate <span class="primary_text">&
+                                        Bread</span></span>
+                            </h1>
+                            <p class="fs-5 fw-medium text-uppercase lh-lg text-white">A STYLISH AND HAPPENING A GROOMING
+                            </p>
+                            <a class="btn btn-primary fw-bold text-uppercase rounded-0 px-xl-4 px-lg-3 py-lg-2 py-xl-3 primary_bg border-1 primary_br"
+                                href="#all_product" role="button"> &plus; shop now</a>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- hero part end  -->
+        <!-- about part start -->
+        <section id="about">
+            <div class="container py-5">
+                <div class="row py-lg-5 ">
+                    <div class="col-lg-4 col-12">
+                        <div class="section_head mt-lg-5 mt-0">
+                            <h2 class="display-6 fw-medium">About Us</h2>
+                            <p class="fw-bold">Wellcome To Our Barber Shop</p>
+                        </div>
+                        <div class="about_content mt-5 ">
+                            <p>Barber Shop is an authentic collection of 11 styles, entirely designed and made in Italy.
+                                Quality, Italian style and functionality are the hallmarks of Barber Shop. Every single
+                                piece is handcrafted in Bassano del Grappa (Vicenza) by skilled artisans.</p>
+                            <p>Barber Shop high-quality multifunctional bags and accessories are made using only
+                                selected Italian leathers and fabrics and offers top quality technical features.</p>
+                            <div class="about_btn d-flex text-uppercase mt-3">
+                                <a class="btn btn-primary me-4 primary_bg primary_br fw-bold rounded-0 py-xl-3 py-lg-2 px-xl-4 px-lg-2 "
+                                    href="#" role="button">&plus;Our Teams</a>
+                                <a class="btn btn-primary py-xl-3 py-lg-2 px-xl-4 px-lg-2 rounded-0 fw-bold bg-transparent primary_br primary_text"
+                                    href="#" role="button">&plus;Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 position-relative col-12 mt-lg-0 mt-5">
+                        <div class="about_img ">
+                            <img src="./image/about (3).jpg" alt="about img" class="position-absolute img-fluid">
+                            <img src="./image/about (2).jpg" alt="about img" class="position-absolute img-fluid">
+                            <img src="./image/about (1).jpg" alt="about img" class="position-absolute img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about part end -->
+        <!-- service part start -->
+        <section id="service">
+            <div class="shadow-sm bg-body-tertiary  mt-5">
+                <div class="container">
+                    <div class="row pt-3">
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="service_contant d-flex align-items-center">
+                                <i class="fa-sharp fa-solid fa-paper-plane me-2 fs-2"></i>
+                                <div>
+                                    <h4 class="d-flex flex-column"> <span class="fs-2">Free</span> <span>Shipping</span>
+                                    </h4>
+                                    <p>Free Shipping on all US order or order above$200</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="service_contant d-flex align-items-center">
+                                <i class="fa-sharp fa-solid fa-user me-2 fs-2"></i>
+                                <div>
+                                    <h4 class="d-flex flex-column"> <span class="fs-2">24/7</span> <span>Support</span>
+                                    </h4>
+                                    <p>Contact us 24 hours a day,7 days a week</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="service_contant d-flex align-items-center">
+                                <i class="fa-solid fa-share pe-2 me-2 fs-2"></i>
+                                <div>
+                                    <h4 class="d-flex flex-column"> <span class="fs-2">30 </span> <span> Days
+                                            Return</span> </h4>
+
+                                    <p>Simplay return within 30 days fon an exchange</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="service_contant d-flex align-items-center">
+                                <i class="fa-sharp fa-solid fa-wallet me-2 fs-2"></i>
+                                <div>
+                                    <h4 class="d-flex flex-column"> <span class="fs-2">100% </span> <span> Payment
+                                            Secure</span> </h4>
+                                    <p>We ensure secure Payment with PEV</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- service part end -->
+
+        <!-- New Arrivals part start -->
+        <section id="new_arrivals">
+            <div class="container py-5">
+                <div class="section_head text-center mb-5">
+                    <h2 class="display-6 fw-medium">New Arrivals</h2>
+                    <p class="fw-bold ">Add our new arrivals to your weekly lineup</p>
+                </div>
+                <div class="row gy-4 gy-lg-0 ">
+                    <div class="col-lg-6 col-12 text-center ">
+                        <img src="./image/New Arrivals (1).jpg" alt="img" class="img-fluid mb-5 ms-xxl-4 ms-xl-0 ">
+                        <div class="row d-xxl-flex justify-content-center align-items-center">
+                            <div class="col-sm-6 col-12 product_card me-sm-4">
+                                <div
+                                    class="product_content d-flex flex-column justify-content-around align-items-center sc-product-item thumbnail ">
+                                    <img data-name="product_image" src="./image/product (1).png" alt="product img">
+                                    <h3 class="product_titel text-center text-capitalize fw-medium display-6 m-0"
+                                        data-name="product_name">hair
+                                        dryer</h3>
+                                    <div
+                                        class="product_info w-100 d-flex justify-content-around align-items-center m-0 p-0">
+                                        <div class="product_reting fs-3 fw-bold">
+                                            <p class="text-black">4.5 <span class="text-warning">&#9733;</span></p>
+                                        </div>
+                                        <div class="price fs-2 fw-bold ">
+                                            <p class="text-black">&#36; 61.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="product_btn text-capitalize">
+                                        <button
+                                            class="sc-add-to-cart btn btn-success btn-sm pull-right py-xl-2 px-xl-3 py-lg-1 px-lg-2 rounded-pill primary_bg primary_br fw-bold">Add
+                                            to cart</button>
+                                        <button type="button"
+                                            class="btn btn-primary text-capitalize fw-bold rounded-pill primary_bg primary_br"
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            view product
+                                        </button>
+
+                                    </div>
+                                    <div>
+                                        <input name="product_price" value="61" type="hidden" />
+                                        <input name="product_id" value="12" type="hidden" />
+                                    </div>
+                                </div>
+                                <div
+                                    class="product_icon position-absolute top-0 start-0 h-100 w-100 d-flex flex-column ms-2 ">
+                                    <span
+                                        class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2 mt-3"><i
+                                            class="fa-regular fa-heart"></i></span>
+                                    <span
+                                        class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2"><i
+                                            class="fa-solid fa-shuffle"></i></span>
+                                    <span
+                                        class="btn btn-outline-light rounded-circle d-flex justify-content-center align-items-center"><i
+                                            class="fa-solid fa-magnifying-glass"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-12 product_card ">
+                                <div
+                                    class="product_content d-flex flex-column justify-content-around align-items-center sc-product-item thumbnail ">
+                                    <img data-name="product_image" src="./image/product (2).png" alt="product img">
+                                    <h3 class="product_titel text-center text-capitalize fw-medium display-6 m-0"
+                                        data-name="product_name">comb
+                                    </h3>
+                                    <div
+                                        class="product_info w-100 d-flex justify-content-around align-items-center m-0 p-0">
+                                        <div class="product_reting fs-3 fw-bold">
+                                            <p class="text-black">4.5 <span class="text-warning">&#9733;</span></p>
+                                        </div>
+                                        <div class="price fs-2 fw-bold ">
+                                            <p class="text-black">&#36; 75.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="product_btn text-capitalize">
+                                        <button
+                                            class="sc-add-to-cart btn btn-success btn-sm pull-right py-xl-2 px-xl-3 py-lg-1 px-lg-2 rounded-pill primary_bg primary_br fw-bold">Add
+                                            to cart</button>
+                                        <button type="button"
+                                            class="btn btn-primary text-capitalize fw-bold rounded-pill primary_bg primary_br"
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            view product
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <input name="product_price" value="75" type="hidden" />
+                                        <input name="product_id" value="12" type="hidden" />
+                                    </div>
+
+                                </div>
+                                <div
+                                    class="product_icon position-absolute top-0 start-0 h-100 w-100 d-flex flex-column ms-2 ">
+                                    <span
+                                        class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2 mt-3"><i
+                                            class="fa-regular fa-heart"></i></span>
+                                    <span
+                                        class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2"><i
+                                            class="fa-solid fa-shuffle"></i></span>
+                                    <span
+                                        class="btn btn-outline-light rounded-circle d-flex justify-content-center align-items-center"><i
+                                            class="fa-solid fa-magnifying-glass"></i></span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 text-center">
+                        <div class="row d-xxl-flex justify-content-center align-items-center ">
+                            <div class="col-sm-6 col-12 product_card me-sm-4">
+                                <div
+                                    class="product_content d-flex flex-column justify-content-around align-items-center sc-product-item thumbnail">
+                                    <img data-name="product_image" src="./image/product (3).png" alt="product img">
+                                    <h3 class="product_titel text-center text-capitalize fw-medium display-6 m-0"
+                                        data-name="product_name">
+                                        trimmer
+                                    </h3>
+                                    <div class="product_info w-100 d-flex justify-content-around align-items-center ">
+                                        <div class="product_reting fs-3 fw-bold">
+                                            <p class="text-black">5.0 <span class="text-warning">&#9733;</span></p>
+                                        </div>
+                                        <div class="price fs-2 fw-bold ">
+                                            <p class="text-black">&#36; 100.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="product_btn text-capitalize">
+                                        <button
+                                            class="sc-add-to-cart btn btn-success btn-sm pull-right py-xl-2 px-xl-3 py-lg-1 px-lg-2 rounded-pill primary_bg primary_br fw-bold">Add
+                                            to cart</button>
+                                        <button type="button"
+                                            class="btn btn-primary text-capitalize fw-bold rounded-pill primary_bg primary_br"
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            view product
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <input name="product_price" value="100" type="hidden" />
+                                        <input name="product_id" value="12" type="hidden" />
+                                    </div>
+                                </div>
+                                <div
+                                    class="product_icon position-absolute top-0 start-0 h-100 w-100 d-flex flex-column ms-2 ">
+                                    <span
+                                        class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2 mt-3"><i
+                                            class="fa-regular fa-heart"></i></span>
+                                    <span
+                                        class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2"><i
+                                            class="fa-solid fa-shuffle"></i></span>
+                                    <span
+                                        class="btn btn-outline-light rounded-circle d-flex justify-content-center align-items-center"><i
+                                            class="fa-solid fa-magnifying-glass"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-12 product_card ">
+                                <div
+                                    class="product_content d-flex flex-column justify-content-around align-items-center sc-product-item thumbnail">
+                                    <img data-name="product_image" src="./image/product (9).png" alt="product img">
+                                    <h3 class="product_titel text-center text-capitalize fw-medium display-6 m-0"
+                                        data-name="product_name">spray
+                                        bottle
+                                    </h3>
+                                    <div
+                                        class="product_info w-100 d-flex justify-content-around align-items-center m-0 p-0">
+                                        <div class="product_reting fs-3 fw-bold">
+                                            <p class="text-black">4.5 <span class="text-warning">&#9733;</span></p>
+                                        </div>
+                                        <div class="price fs-2 fw-bold ">
+                                            <p class="text-black">&#36; 61.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="product_btn text-capitalize">
+                                        <button
+                                            class="sc-add-to-cart btn btn-success btn-sm pull-right py-xl-2 px-xl-3 py-lg-1 px-lg-2 rounded-pill primary_bg primary_br fw-bold">Add
+                                            to cart</button>
+                                        <button type="button"
+                                            class="btn btn-primary text-capitalize fw-bold rounded-pill primary_bg primary_br"
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            view product
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <input name="product_price" value="61" type="hidden" />
+                                        <input name="product_id" value="12" type="hidden" />
+                                    </div>
+
+                                </div>
+                                <div
+                                    class="product_icon position-absolute top-0 start-0 h-100 w-100 d-flex flex-column ms-2 ">
+                                    <span
+                                        class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2 mt-3"><i
+                                            class="fa-regular fa-heart"></i></span>
+                                    <span
+                                        class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2"><i
+                                            class="fa-solid fa-shuffle"></i></span>
+                                    <span
+                                        class="btn btn-outline-light rounded-circle d-flex justify-content-center align-items-center"><i
+                                            class="fa-solid fa-magnifying-glass"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./image/New Arrivals (2).jpg" alt="img" class="img-fluid mt-5 ms-xxl-4 ms-xl-0">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- New Arrivals part end -->
+
+        <!-- Best Sellers start -->
+        <section id="Sellers">
+            <div class="container py-5">
+                <div class="section_head text-center mb-5 ">
+                    <h2 class="display-6 fw-medium">Best Sellers</h2>
+                    <p class="fw-bold ">Add our new arrivals to your weekly lineup</p>
+                </div>
+                <div class="row gy-lg-0 gy-4 ms-sm-0 ms-4 ">
+                    <div class="col-lg-3 col-sm-6 col-12 d-xxl-flex justify-content-center align-items-center">
+                        <div class="product_card ms-lg-0 ms-md-5 ms-0">
+                            <div
+                                class="product_content d-flex flex-column justify-content-around align-items-center  sc-product-item thumbnail">
+                                <img data-name="product_image" src="./image/product (4).png" alt="product img">
+                                <h3 class="product_titel text-center text-capitalize fw-medium display-6 m-0"
+                                    data-name="product_name">spray
+                                    bottle</h3>
+                                <div
+                                    class="product_info w-100 d-flex justify-content-around align-items-center m-0 p-0">
+                                    <div class="product_reting fs-3 fw-bold">
+                                        <p class="text-black">4.5 <span class="text-warning">&#9733;</span></p>
+                                    </div>
+                                    <div class="price fs-2 fw-bold ">
+                                        <p class="text-black">&#36; 50.00</p>
+                                    </div>
+                                </div>
+                                <div class="product_btn text-capitalize">
+                                    <button
+                                        class="sc-add-to-cart btn btn-success btn-sm pull-right  py-xl-2 px-xl-3 py-lg-1 px-lg-2 rounded-pill primary_bg primary_br fw-bold">Add
+                                        to cart</button>
+                                    <button type="button"
+                                        class="btn btn-primary text-capitalize fw-bold rounded-pill primary_bg primary_br"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        view product
+                                    </button>
+                                </div>
+                                <div>
+                                    <input name="product_price" value="75" type="hidden" />
+                                    <input name="product_id" value="12" type="hidden" />
+                                </div>
+                            </div>
+                            <div
+                                class="product_icon position-absolute top-0 start-0 h-100 w-100 d-flex flex-column ms-2 ">
+                                <span
+                                    class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2 mt-3"><i
+                                        class="fa-regular fa-heart"></i></span>
+                                <span
+                                    class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2"><i
+                                        class="fa-solid fa-shuffle"></i></span>
+                                <span
+                                    class="btn btn-outline-light rounded-circle d-flex justify-content-center align-items-center"><i
+                                        class="fa-solid fa-magnifying-glass"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12 d-xxl-flex justify-content-center align-items-center">
+                        <div class="product_card ms-lg-0 ms-md-5 ms-0">
+                            <div
+                                class="product_content d-flex flex-column justify-content-around align-items-center sc-product-item thumbnail">
+                                <img data-name="product_image" src="./image/product (6).png" alt="product img">
+                                <h3 data-name="product_name"
+                                    class="product_titel text-center text-capitalize fw-medium display-6 m-0">comb</h3>
+                                <div
+                                    class="product_info w-100 d-flex justify-content-around align-items-center m-0 p-0">
+                                    <div class="product_reting fs-3 fw-bold">
+                                        <p class="text-black">4.5 <span class="text-warning">&#9733;</span></p>
+                                    </div>
+                                    <div class="price fs-2 fw-bold ">
+                                        <p class="text-black">&#36; 52.00</p>
+                                    </div>
+                                </div>
+                                <div class="product_btn text-capitalize">
+                                    <button
+                                        class="sc-add-to-cart btn btn-success btn-sm pull-right  py-xl-2 px-xl-3 py-lg-1 px-lg-2 rounded-pill primary_bg primary_br fw-bold">Add
+                                        to cart</button>
+                                    <button type="button"
+                                        class="btn btn-primary text-capitalize fw-bold rounded-pill primary_bg primary_br"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        view product
+                                    </button>
+                                </div>
+                                <div>
+                                    <input name="product_price" value="52" type="hidden" />
+                                    <input name="product_id" value="12" type="hidden" />
+                                </div>
+                            </div>
+                            <div
+                                class="product_icon position-absolute top-0 start-0 h-100 w-100 d-flex flex-column ms-2 ">
+                                <span
+                                    class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2 mt-3"><i
+                                        class="fa-regular fa-heart"></i></span>
+                                <span
+                                    class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2"><i
+                                        class="fa-solid fa-shuffle"></i></span>
+                                <span
+                                    class="btn btn-outline-light rounded-circle d-flex justify-content-center align-items-center"><i
+                                        class="fa-solid fa-magnifying-glass"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12 d-xxl-flex justify-content-center align-items-center">
+                        <div class="product_card ms-lg-0 ms-md-5 ms-0">
+                            <div
+                                class="product_content d-flex flex-column justify-content-around align-items-center sc-product-item thumbnail">
+                                <img data-name="product_image" src="./image/product(11).png">
+                                <h3 data-name="product_name"
+                                    class="product_titel text-center text-capitalize fw-medium display-6 m-0">trimmer
+                                </h3>
+                                <div
+                                    class="product_info w-100 d-flex justify-content-around align-items-center m-0 p-0">
+                                    <div class="product_reting fs-3 fw-bold">
+                                        <p class="text-black">4.5 <span class="text-warning">&#9733;</span></p>
+                                    </div>
+                                    <div class="price fs-2 fw-bold ">
+                                        <p class="text-black">&#36; 100.00</p>
+                                    </div>
+                                </div>
+                                <div class="product_btn text-capitalize">
+                                    <button
+                                        class="sc-add-to-cart btn btn-success btn-sm pull-right  py-xl-2 px-xl-3 py-lg-1 px-lg-2 rounded-pill primary_bg primary_br fw-bold">Add
+                                        to cart</button>
+                                    <button type="button"
+                                        class="btn btn-primary text-capitalize fw-bold rounded-pill primary_bg primary_br"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        view product
+                                    </button>
+                                </div>
+                                <div>
+                                    <input name="product_price" value="100" type="hidden" />
+                                    <input name="product_id" value="12" type="hidden" />
+                                </div>
+                            </div>
+                            <div
+                                class="product_icon position-absolute top-0 start-0 h-100 w-100 d-flex flex-column ms-2 ">
+                                <span
+                                    class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2 mt-3"><i
+                                        class="fa-regular fa-heart"></i></span>
+                                <span
+                                    class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2"><i
+                                        class="fa-solid fa-shuffle"></i></span>
+                                <span
+                                    class="btn btn-outline-light rounded-circle d-flex justify-content-center align-items-center"><i
+                                        class="fa-solid fa-magnifying-glass"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12 d-xxl-flex justify-content-center align-items-center">
+                        <div class="product_card ms-lg-0 ms-md-5 ms-0">
+                            <div
+                                class="product_content d-flex flex-column justify-content-around align-items-center sc-product-item thumbnail">
+                                <img data-name="product_image" src="./image/product (8).png" alt="product img">
+                                <h3 class="product_titel text-center text-capitalize fw-medium display-6 m-0"
+                                    data-name="product_name">hair dryer
+                                </h3>
+                                <div
+                                    class="product_info w-100 d-flex justify-content-around align-items-center m-0 p-0">
+                                    <div class="product_reting fs-3 fw-bold">
+                                        <p class="text-black">4.5 <span class="text-warning">&#9733;</span></p>
+                                    </div>
+                                    <div class="price fs-2 fw-bold ">
+                                        <p class="text-black">&#36; 100.00</p>
+                                    </div>
+                                </div>
+                                <div class="product_btn text-capitalize">
+                                    <button
+                                        class="sc-add-to-cart btn btn-success btn-sm pull-right  py-xl-2 px-xl-3 py-lg-1 px-lg-2 rounded-pill primary_bg primary_br fw-bold">Add
+                                        to cart</button>
+                                    <button type="button"
+                                        class="btn btn-primary text-capitalize fw-bold rounded-pill primary_bg primary_br"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        view product
+                                    </button>
+                                </div>
+                                <div>
+                                    <input name="product_price" value="100" type="hidden" />
+                                    <input name="product_id" value="12" type="hidden" />
+                                </div>
+                            </div>
+                            <div
+                                class="product_icon position-absolute top-0 start-0 h-100 w-100 d-flex flex-column ms-2 ">
+                                <span
+                                    class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2 mt-3"><i
+                                        class="fa-regular fa-heart"></i></span>
+                                <span
+                                    class="btn btn-outline-light rounded-circle me-2 d-flex justify-content-center align-items-center mb-2"><i
+                                        class="fa-solid fa-shuffle"></i></span>
+                                <span
+                                    class="btn btn-outline-light rounded-circle d-flex justify-content-center align-items-center"><i
+                                        class="fa-solid fa-magnifying-glass"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Sellers end -->
+
+        <!-- banner part start -->
+        <section id="banner">
+            <div class="container">
+                <div class="row py-5 text-lg-start text-md-center gy-lg-0 gy-4">
+                    <div class="col-lg-6 col-12 position-relative d-xxl-flex justify-content-center align-items-center">
+                        <img src="./image/barberkit.jpg" alt="barberkit" class="img-fluid  ">
+                        <div class="banner_content position-absolute text-white text-start">
+                            <h4 class="fs-2 fw-bold">BARBER KITS</h4>
+                            <p class="text-white lh-1 fs-4">Save Up To 70% off</p>
+                            <a href="#all_product" class="fs-6 text-uppercase fw-medium">shop now</a>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-12 position-relative  d-xxl-flex justify-content-center align-items-center">
+                        <img src="./image/professional.jpg" alt="barberkit" class="img-fluid">
+                        <div class="banner_content_2 position-absolute text-white text-end">
+                            <h4 class=" fs-2 fw-bold">PROFESSIONAL</h4>
+                            <p class="text-white lh-1 fs-4">Hair cuttings shears </p>
+                            <a href="#all_product" class="fs-6 text-uppercase fw-medium">shop now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- banner part end -->
+
+        <!-- all product start -->
+        <section id="all_product" class="py-5">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-4 col-sm-6 col-12 ">
+                        <h4 class="fw-bold display-6 product_head">Featured Products</h4>
+                        <p class="fs-5 text-black fw-medium lh-1 text-capitalize">shop all product</p>
+                        <div class="row gy-3 mt-4">
+                            <div class="col-12">
+                                <div class="product_card">
+                                    <div
+                                        class="product_content d-flex flex-row justify-content-around align-items-center sc-product-item thumbnail">
+                                        <div class="product_img">
+                                            <img src="./image/product (3).png" alt="product img"
+                                                data-name="product_image">
+                                        </div>
+                                        <div class="product_details">
+                                            <h3 class="product_titel text-center text-capitalize fs-2 fw-bold m-0"
+                                                data-name="product_name">
+                                                trimmer</h3>
+                                            <div class="product_info d-flex flex-column align-items-center ">
+                                                <div class="product_reting fs-3 fw-bold ">
+                                                    <p class="text-black">5.0 <span class="text-warning fs-5">&#9733;
+                                                            &#9733; &#9733; &#9733; &#9733;</span></p>
+                                                </div>
+                                                <div class="price fs-3 fw-bold ">
+                                                    <p class="text-black">&#36; 100.00</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="product_btn text-capitalize ">
+                                                <button
+                                                    class="sc-add-to-cart btn btn-success btn-sm pull-right py-xl-2 px-xl-3 py-lg-1 px-lg-3 mb-xl-0 mb-1 rounded-pill bg-transparent primary_text primary_br fw-bold ">Add
+                                                    to cart</button>
+                                                <button type="button"
+                                                    class="btn btn-primary text-capitalize px-2 rounded-pill primary_bg primary_br"
+                                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    view product
+                                                </button>
+
+                                            </div>
+                                            <div>
+                                                <input name="product_price" value="100" type="hidden" />
+                                                <input name="product_id" value="12" type="hidden" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="product_card">
+                                    <div class="product_content d-flex flex-row justify-content-around align-items-center sc-product-item thumbnail
+                                        ">
+                                        <div class="product_img">
+                                            <img src="./image/product (2).png" alt="product img"
+                                                data-name="product_image">
+                                        </div>
+                                        <div class="product_details">
+                                            <h3 class="product_titel text-center text-capitalize fs-2 fw-bold m-0"
+                                                data-name="product_name">comb
+                                            </h3>
+                                            <div class="product_info d-flex flex-column align-items-center ">
+                                                <div class="product_reting fs-3 fw-bold ">
+                                                    <p class="text-black">5.0 <span class="text-warning fs-5">&#9733;
+                                                            &#9733; &#9733; &#9733; &#9733;</span></p>
+                                                </div>
+                                                <div class="price fs-3 fw-bold ">
+                                                    <p class="text-black">&#36; 80.00</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="product_btn text-capitalize">
+                                                <button
+                                                    class="sc-add-to-cart btn btn-success btn-sm pull-right py-xl-2 px-xl-3 py-lg-1 px-lg-3 mb-xl-0 mb-1 rounded-pill bg-transparent primary_text primary_br fw-bold">Add
+                                                    to cart</button>
+                                                <button type="button"
+                                                    class="btn btn-primary text-capitalize px-2 rounded-pill primary_bg primary_br"
+                                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    view product
+                                                </button>
+                                            </div>
+                                            <div>
+                                                <input name="product_price" value="80" type="hidden" />
+                                                <input name="product_id" value="12" type="hidden" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="product_card">
+                                    <div
+                                        class="product_content d-flex flex-row justify-content-around align-items-center sc-product-item thumbnail">
+                                        <div class="product_img">
+                                            <img src="./image/product (4).png" alt="product img"
+                                                data-name="product_image">
+                                        </div>
+                                        <div class="product_details">
+                                            <h3 class="product_titel text-center text-capitalize fs-2 fw-bold m-0"
+                                                data-name="product_name">spray
+                                                bottle</h3>
+                                            <div class="product_info d-flex flex-column align-items-center ">
+                                                <div class="product_reting fs-3 fw-bold ">
+                                                    <p class="text-black">5.0 <span class="text-warning fs-5">&#9733;
+                                                            &#9733; &#9733; &#9733; &#9733;</span></p>
+                                                </div>
+                                                <div class="price fs-3 fw-bold ">
+                                                    <p class="text-black">&#36; 69.00</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="product_btn text-capitalize">
+                                                <button
+                                                    class="sc-add-to-cart btn btn-success btn-sm pull-right py-xl-2 px-xl-3 py-lg-1 px-lg-3 mb-xl-0 mb-1 rounded-pill bg-transparent primary_text primary_br fw-bold">Add
+                                                    to cart</button>
+                                                <button type="button"
+                                                    class="btn btn-primary text-capitalize px-2 rounded-pill primary_bg primary_br"
+                                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    view product
+                                                </button>
+                                            </div>
+                                            <div>
+                                                <input name="product_price" value="69" type="hidden" />
+                                                <input name="product_id" value="12" type="hidden" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 ">
+                        <h4 class="fw-bold display-6 product_head">Top Rated Products</h4>
+                        <p class="fs-5 text-black fw-medium lh-1 text-capitalize">shop all product</p>
+                        <div class="row gy-3 mt-4">
+                            <div class="col-12">
+                                <div class="product_card">
+                                    <div
+                                        class="product_content d-flex flex-row justify-content-around align-items-center sc-product-item thumbnail">
+                                        <div class="product_img">
+                                            <img src="./image/product (1).png" alt="product img"
+                                                data-name="product_image">
+                                        </div>
+                                        <div class="product_details">
+                                            <h3 class="product_titel text-center text-capitalize fs-2 fw-bold m-0"
+                                                data-name="product_name">hair
+                                                dryer</h3>
+                                            <div class="product_info d-flex flex-column align-items-center ">
+                                                <div class="product_reting fs-3 fw-bold ">
+                                                    <p class="text-black">5.0 <span class="text-warning fs-5">&#9733;
+                                                            &#9733; &#9733; &#9733; &#9733;</span></p>
+                                                </div>
+                                                <div class="price fs-3 fw-bold ">
+                                                    <p class="text-black">&#36; 100.00</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="product_btn text-capitalize">
+                                                <button
+                                                    class="sc-add-to-cart btn btn-success btn-sm pull-right py-xl-2 px-xl-3 py-lg-1 px-lg-3 mb-xl-0 mb-1 rounded-pill bg-transparent primary_text primary_br fw-bold">Add
+                                                    to cart</button>
+                                                <button type="button"
+                                                    class="btn btn-primary text-capitalize px-2 rounded-pill primary_bg primary_br"
+                                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    view product
+                                                </button>
+
+                                            </div>
+                                            <div>
+                                                <input name="product_price" value="100" type="hidden" />
+                                                <input name="product_id" value="12" type="hidden" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="product_card">
+                                    <div class="product_content d-flex flex-row justify-content-around align-items-center sc-product-item thumbnail
+                                        ">
+                                        <div class="product_img">
+                                            <img src="./image/product (5).png" alt="product img"
+                                                data-name="product_image">
+                                        </div>
+                                        <div class="product_details">
+                                            <h3 class="product_titel text-center text-capitalize fs-2 fw-bold m-0"
+                                                data-name="product_name">
+                                                shaving </h3>
+                                            <div class="product_info d-flex flex-column align-items-center ">
+                                                <div class="product_reting fs-3 fw-bold ">
+                                                    <p class="text-black">5.0 <span class="text-warning fs-5">&#9733;
+                                                            &#9733; &#9733; &#9733; &#9733;</span></p>
+                                                </div>
+                                                <div class="price fs-3 fw-bold ">
+                                                    <p class="text-black">&#36; 50.00</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="product_btn text-capitalize">
+                                                <button
+                                                    class="sc-add-to-cart btn btn-success btn-sm pull-right py-xl-2 px-xl-3 py-lg-1 px-lg-3 mb-xl-0 mb-1 rounded-pill bg-transparent primary_text primary_br fw-bold">Add
+                                                    to cart</button>
+                                                <button type="button"
+                                                    class="btn btn-primary text-capitalize px-2 rounded-pill primary_bg primary_br"
+                                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    view product
+                                                </button>
+
+                                            </div>
+                                            <div>
+                                                <input name="product_price" value="50" type="hidden" />
+                                                <input name="product_id" value="12" type="hidden" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="product_card">
+                                    <div
+                                        class="product_content d-flex flex-row justify-content-around align-items-center sc-product-item thumbnail">
+                                        <div class="product_img">
+                                            <img src="./image/product (6).png" alt="product img"
+                                                data-name="product_image">
+                                        </div>
+                                        <div class="product_details">
+                                            <h3 class="product_titel text-center text-capitalize fs-2 fw-bold m-0"
+                                                data-name="product_name">comb
+                                            </h3>
+                                            <div class="product_info d-flex flex-column align-items-center ">
+                                                <div class="product_reting fs-3 fw-bold ">
+                                                    <p class="text-black">5.0 <span class="text-warning fs-5">&#9733;
+                                                            &#9733; &#9733; &#9733; &#9733;</span></p>
+                                                </div>
+                                                <div class="price fs-3 fw-bold ">
+                                                    <p class="text-black">&#36; 45.00</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="product_btn text-capitalize">
+                                                <button
+                                                    class="sc-add-to-cart btn btn-success btn-sm pull-right py-xl-2 px-xl-3 py-lg-1 px-lg-3 mb-xl-0 mb-1 rounded-pill bg-transparent primary_text primary_br fw-bold">Add
+                                                    to cart</button>
+                                                <button type="button"
+                                                    class="btn btn-primary text-capitalize px-2 rounded-pill primary_bg primary_br"
+                                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    view product
+                                                </button>
+
+                                            </div>
+                                            <div>
+                                                <input name="product_price" value="45" type="hidden" />
+                                                <input name="product_id" value="12" type="hidden" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <h4 class="fw-bold display-6 product_head mt-lg-0 mt-4 text-lg-start text-center">On-Sale
+                            Products</h4>
+                        <p class="fs-5 text-black fw-medium lh-1 text-capitalize text-lg-start text-center">shop all
+                            product</p>
+                        <div class="row gy-3 mt-4">
+                            <div class="col-lg-12 col-sm-6 col-12">
+                                <div class="product_card">
+                                    <div class="product_content d-flex flex-row justify-content-around align-items-center sc-product-item thumbnail
+                                        ">
+                                        <div class="product_img">
+                                            <img src="./image/product (9).png" alt="product img"
+                                                data-name="product_image">
+                                        </div>
+                                        <div class="product_details">
+                                            <h3 class="product_titel text-center text-capitalize fs-2 fw-bold m-0"
+                                                data-name="product_name">spray
+                                                bottle</h3>
+                                            <div class="product_info d-flex flex-column align-items-center ">
+                                                <div class="product_reting fs-3 fw-bold ">
+                                                    <p class="text-black">5.0 <span class="text-warning fs-5">&#9733;
+                                                            &#9733; &#9733; &#9733; &#9733;</span></p>
+                                                </div>
+                                                <div class="price fs-3 fw-bold ">
+                                                    <p class="text-black">&#36; 49.00</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="product_btn text-capitalize">
+                                                <button
+                                                    class="sc-add-to-cart btn btn-success btn-sm pull-right py-xl-2 px-xl-3 py-lg-1 px-lg-3 mb-xl-0 mb-1 rounded-pill bg-transparent primary_text primary_br fw-bold">Add
+                                                    to cart</button>
+                                                <button type="button"
+                                                    class="btn btn-primary text-capitalize rounded-pill primary_bg primary_br"
+                                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    view product
+                                                </button>
+
+                                            </div>
+                                            <div>
+                                                <input name="product_price" value="49" type="hidden" />
+                                                <input name="product_id" value="12" type="hidden" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-sm-6 col-12">
+                                <div class="product_card">
+                                    <div class="product_content d-flex flex-row justify-content-around align-items-center sc-product-item thumbnail
+                                        ">
+                                        <div class="product_img">
+                                            <img src="./image/product (7).png" alt="product img"
+                                                data-name="product_image">
+                                        </div>
+                                        <div class="product_details">
+                                            <h3 class="product_titel text-center text-capitalize fs-2 fw-bold m-0"
+                                                data-name="product_name">
+                                                trimmer</h3>
+                                            <div class="product_info d-flex flex-column align-items-center ">
+                                                <div class="product_reting fs-3 fw-bold ">
+                                                    <p class="text-black">5.0 <span class="text-warning fs-5">&#9733;
+                                                            &#9733; &#9733; &#9733; &#9733;</span></p>
+                                                </div>
+                                                <div class="price fs-3 fw-bold ">
+                                                    <p class="text-black">&#36; 69.00</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="product_btn text-capitalize">
+                                                <button
+                                                    class="sc-add-to-cart btn btn-success btn-sm pull-right py-xl-2 px-xl-3 py-lg-1 px-lg-3 mb-xl-0 mb-1 rounded-pill bg-transparent primary_text primary_br fw-bold">Add
+                                                    to cart</button>
+                                                <button type="button"
+                                                    class="btn btn-primary text-capitalize rounded-pill primary_bg primary_br"
+                                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    view product
+                                                </button>
+
+                                            </div>
+                                            <div>
+                                                <input name="product_price" value="69" type="hidden" />
+                                                <input name="product_id" value="12" type="hidden" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-sm-6 col-12">
+                                <div class="product_card">
+                                    <div class="product_content d-flex flex-row justify-content-around align-items-center sc-product-item thumbnail
+                                        ">
+                                        <div class="product_img">
+                                            <img src="./image/product (8).png" alt="product img"
+                                                data-name="product_image">
+                                        </div>
+                                        <div class="product_details">
+                                            <h3 class="product_titel text-center text-capitalize fs-2 fw-bold m-0"
+                                                data-name="product_name">hair
+                                                dryer</h3>
+                                            <div class="product_info d-flex flex-column align-items-center ">
+                                                <div class="product_reting fs-3 fw-bold ">
+                                                    <p class="text-black">5.0 <span class="text-warning fs-5">&#9733;
+                                                            &#9733; &#9733; &#9733; &#9733;</span></p>
+                                                </div>
+                                                <div class="price fs-3 fw-bold ">
+                                                    <p class="text-black">&#36; 120.00</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="product_btn text-capitalize">
+                                                <button
+                                                    class="sc-add-to-cart btn btn-success btn-sm pull-right py-xl-2 px-xl-3 py-lg-1 px-lg-3 mb-xl-0 mb-1 rounded-pill bg-transparent primary_text primary_br fw-bold">Add
+                                                    to cart</button>
+                                                <button type="button"
+                                                    class="btn btn-primary text-capitalize rounded-pill primary_bg primary_br"
+                                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    view product
+                                                </button>
+
+                                            </div>
+                                            <div>
+                                                <input name="product_price" value="120" type="hidden" />
+                                                <input name="product_id" value="12" type="hidden" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-sm-6 col-12 d-lg-none">
+                                <div class="product_card">
+                                    <div class="product_content d-flex flex-row justify-content-around align-items-center sc-product-item thumbnail
+                                        ">
+                                        <div class="product_img">
+                                            <img src="./image/product (1).png" alt="product img"
+                                                data-name="product_image">
+                                        </div>
+                                        <div class="product_details">
+                                            <h3 class="product_titel text-center text-capitalize fs-2 fw-bold m-0"
+                                                data-name="product_name">hair
+                                                dryer</h3>
+                                            <div class="product_info d-flex flex-column align-items-center ">
+                                                <div class="product_reting fs-3 fw-bold ">
+                                                    <p class="text-black">5.0 <span class="text-warning fs-5">&#9733;
+                                                            &#9733; &#9733; &#9733; &#9733;</span></p>
+                                                </div>
+                                                <div class="price fs-3 fw-bold ">
+                                                    <p class="text-black">&#36; 120.00</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="product_btn text-capitalize">
+                                                <button
+                                                    class="sc-add-to-cart btn btn-success btn-sm pull-right py-xl-2 px-xl-3 py-lg-1 px-lg-3 mb-xl-0 mb-1 rounded-pill bg-transparent primary_text primary_br fw-bold">Add
+                                                    to cart</button>
+                                                <button type="button"
+                                                    class="btn btn-primary text-capitalize rounded-pill primary_bg primary_br"
+                                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    view product
+                                                </button>
+
+                                            </div>
+                                            <div>
+                                                <input name="product_price" value="120" type="hidden" />
+                                                <input name="product_id" value="12" type="hidden" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- all product end -->
+
+        <!-- latest blogs start-->
+        <section id="latest_blog" class="pt-5 pb-2">
+            <div class="container">
+                <div class="section_head text-center mb-5 ">
+                    <h2 class="display-6 fw-medium">The Latest Blogs</h2>
+                    <p class="fw-bold ">There Are latast blog post </p>
+                </div>
+                <div class="slide-container swiper pb-5 px-1">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card swiper-slide m">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="image/blog (1).jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name mb-2 mt-2 fw-bold">Post With Gallery</h2>
+                                    <div class="card_logo d-flex justify-content-center fs-6 ">
+                                        <p class="me-2"><i class="fa-solid fa-user"></i> Admin</p>
+                                        <p class="me-2"><i class="fa-regular fa-clock"></i> April 10, 2023</p>
+                                        <p><i class="fa-solid fa-comments"></i> 15</p>
+                                    </div>
+                                    <p class="description">The lorem text the section that contains header with having
+                                        open functionality....</p>
+
+                                    <button class="button"> &plus;Read More</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="image/blog (2).jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name mb-2 mt-2 fw-bold">Simple Post With Format Images</h2>
+                                    <div class="card_logo d-flex justify-content-center fs-6 ">
+                                        <p class="me-2"><i class="fa-solid fa-user"></i> Admin</p>
+                                        <p class="me-2"><i class="fa-regular fa-clock"></i> April 10, 2023</p>
+                                        <p><i class="fa-solid fa-comments"></i> 15</p>
+                                    </div>
+                                    <p class="description">The lorem text the section that contains header with having
+                                        open functionality....</p>
+
+                                    <button class="button">&plus; Read More</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="image/blog (3).jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name mb-2 mt-2 fw-bold">Simple Post With Format Audio</h2>
+                                    <div class="card_logo d-flex justify-content-center fs-6 ">
+                                        <p class="me-2"><i class="fa-solid fa-user"></i> Admin</p>
+                                        <p class="me-2"><i class="fa-regular fa-clock"></i> April 10, 2023</p>
+                                        <p><i class="fa-solid fa-comments"></i> 15</p>
+                                    </div>
+                                    <p class="description">The lorem text the section that contains header with having
+                                        open functionality....</p>
+
+                                    <button class="button">&plus; Read More</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="image/blog (4).jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name mb-2 mt-2 fw-bold">Post With Gallery</h2>
+                                    <div class="card_logo d-flex justify-content-center fs-6 ">
+                                        <p class="me-2"><i class="fa-solid fa-user"></i> Admin</p>
+                                        <p class="me-2"><i class="fa-regular fa-clock"></i> April 10, 2023</p>
+                                        <p><i class="fa-solid fa-comments"></i> 15</p>
+                                    </div>
+                                    <p class="description">The lorem text the section that contains header with having
+                                        open functionality....</p>
+
+                                    <button class="button">&plus; Read More</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="image/blog (5).jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name mb-2 mt-2 fw-bold">Simple Post With Format Images</h2>
+                                    <div class="card_logo d-flex justify-content-center fs-6 ">
+                                        <p class="me-2"><i class="fa-solid fa-user"></i> Admin</p>
+                                        <p class="me-2"><i class="fa-regular fa-clock"></i> April 10, 2023</p>
+                                        <p><i class="fa-solid fa-comments"></i> 15</p>
+                                    </div>
+                                    <p class="description">The lorem text the section that contains header with having
+                                        open functionality....</p>
+
+                                    <button class="button">&plus; Read More</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="image/blog (6).jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name mb-2 mt-2 fw-bold">Simple Post With Format Audio</h2>
+                                    <div class="card_logo d-flex justify-content-center fs-6 ">
+                                        <p class="me-2"><i class="fa-solid fa-user"></i> Admin</p>
+                                        <p class="me-2"><i class="fa-regular fa-clock"></i> April 10, 2023</p>
+                                        <p><i class="fa-solid fa-comments"></i> 15</p>
+                                    </div>
+                                    <p class="description">The lorem text the section that contains header with having
+                                        open functionality....</p>
+
+                                    <button class="button">&plus; Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </section>
+        <!-- latest blogs end-->
+
+        <!-- logo start -->
+        <section id="logo">
+            <div class="container">
+                <div class="row g-0 text-center">
+                    <div class="col-lg-2 col-sm-4 col-6  ">
+                        <img src="./image/blog logo (1).png" alt="logo" class="opacity-50">
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6 ">
+                        <img src="./image/blog logo (2).png" alt="logo" class="opacity-50">
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6 ">
+                        <img src="./image/blog logo (3).png" alt="logo" class="opacity-50">
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6 ">
+                        <img src="./image/blog logo (4).png" alt="logo" class="opacity-50">
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6 ">
+                        <img src="./image/blog logo (1).png" alt="logo" class="opacity-50">
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6 ">
+                        <img src="./image/blog logo (2).png" alt="logo" class="opacity-50">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- logo end -->
+
+
+        <!-- Modal / view product start -->
+        <section id="view_product">
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true" data-bs-backdrop="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-3 fw-bold text-capitalize text-white" id="exampleModalLabel">
+                                choose
+                                product</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-5">
+                                    <img src="./image/product_img(13).jpg" alt="" class="img-fluid pb-1" id="MainImg">
+
+                                    <div
+                                        class="small_img_grp d-flex justify-content-between sc-product-item thumbnail ">
+                                        <div class="small-img-col">
+                                            <img src="./image/product_img(13).jpg" alt="" class="img-fluid small-img"
+                                                onclick="clickimg(this)" data-name="product_image">
+                                        </div>
+                                        <div class="small-img-col">
+                                            <img src="./image/product_img (8).jpg" alt="" class="img-fluid small-img"
+                                                onclick="clickimg(this)" data-name="product_image">
+                                        </div>
+                                        <div class="small-img-col">
+                                            <img src="./image/product_img (6).jpg" alt="" class="img-fluid small-img"
+                                                onclick="clickimg(this)" data-name="product_image">
+                                        </div>
+                                        <div class="small-img-col">
+                                            <img src="./image/product_img (7).jpg" alt="" class="img-fluid small-img"
+                                                onclick="clickimg(this)" data-name="product_image">
+                                        </div>
+                                        <div>
+                                            <input name="product_price" value="80" type="hidden" />
+                                            <input name="product_id" value="12" type="hidden" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7 text-white">
+                                    <h3 class="display-5 fw-bold" data-name="product_name">
+                                        Men BarBer Kit
+                                    </h3>
+                                    <div class="oder_info ">
+                                        <h5>Quantity &#x3a; <span class="ms-4"> <input type="number" value="1"></span>
+                                        </h5>
+                                        <div class="rating mt-3 fw-bold">
+                                            <span> &#9733; Top Rated</span>
+                                            <span class="fs-5  ">4.5&#x2f;5 &#40; 252 &#41; &#62; 42 Sold</span>
+                                        </div>
+                                        <h4 class="mt-3 fw-bold text-capitalize">product details &#x3a;</h4>
+                                        <p class="text-white pe-5">Lorem ipsum dolor sit amet consectetur, adipisicing
+                                            elit.
+                                            Ex vero magnam excepturi eaque accusantium. Exercitationem, deserunt
+                                            corrupti
+                                            tempora aut architecto officiis autem hic, repudiandae nemo quo rem ipsum
+                                            tenetur quasi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button"
+                                class="btn btn-secondary py-2 px-3 rounded-pill primary_bg primary_br fw-bold"
+                                data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Buy
+                                Now</button>
+                            <button type="button"
+                                class="btn btn-primary  py-2 px-3 rounded-pill primary_text primary_br fw-bolder">Add To
+                                Card</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- modal/ view product end  -->
+
+        <!-- shopping cart // offcanvas start -->
+        <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-uppercase fs-3" id="offcanvasScrollingLabel">Your cart</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+
+                <div id="smartcart" class="panel panel-default sc-cart sc-theme-default"><input type="hidden"
+                        name="cart_list" id="cart_list"
+                        value="[{&quot;product_image&quot;:&quot;http://placehold.it/250x150/2aabd2/ffffff?text=Product+1&quot;,&quot;product_name&quot;:&quot;Product 1&quot;,&quot;product_price&quot;:&quot;299&quot;,&quot;product_id&quot;:&quot;12&quot;,&quot;product_quantity&quot;:1,&quot;unique_key&quot;:1680239453287},{&quot;product_image&quot;:&quot;http://placehold.it/250x150/2aabd2/ffffff?text=Product+2&quot;,&quot;product_name&quot;:&quot;Product 2 &quot;,&quot;product_desc&quot;:&quot;Product details&quot;,&quot;product_size&quot;:&quot;S&quot;,&quot;product_price&quot;:&quot;5435.50&quot;,&quot;product_id&quot;:&quot;145&quot;,&quot;product_quantity&quot;:1,&quot;unique_key&quot;:1680239524507}]">
+                </div>
+            </div>
+        </div>
+        <!-- shopping cart // offcanvas end -->
+
+        <!-- sine up start -->
+        <section id="logIn">
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="false" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header ">
+                            <h2 class="modal-title fs-2 text-center text-white fw-bold text-capitalize"
+                                id="staticBackdropLabel">Sign Up Now</h2>
+                            <button type="button" class="btn-close " data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="info mb-3">
+                                    <input type="text" class="form-control rounded-pill py-2" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Full name">
+
+                                </div>
+                                <div class="info mb-3">
+                                    <input type="email" class="form-control rounded-pill py-2" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Email address">
+
+                                </div>
+                                <div class="info mb-3">
+                                    <input type="password" class="form-control rounded-pill py-2"
+                                        id="exampleInputPassword1" placeholder="Password">
+                                </div>
+
+                                <div>
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label text-white fw-bold" for="exampleCheck1">I Agree The
+                                        all terms and conditions</label>
+                                </div>
+
+
+
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary w-100 rounded-pill m-1 fw-bold fs-5 ">Sign
+                                In</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sine up end -->
+
+        <!-- back to top start-->
+        <div class="back_to_top ">
+            <div class="btn btn-primary ">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+        </div>
+        <!-- back to top end -->
+
+        <!-- shopping cart start -->
+        <button class="btn btn-primary d-lg-none cart_btn" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i
+                class="fa-solid fa-cart-plus fs-3"></i></button>
+
+        <!-- shopping cart end -->
+
+
+    </main>
+    <!-- footer part stat -->
+    <footer class="footer border-bottom pt-5 pb-3">
+        <div class="container pt-5 pb-2 ">
+            <div class="row">
+                <div class="col-lg-4 col-6 pe-lg-4">
+                    <img class="pb-3 text-center" src="image/logo.png" alt="">
+                    <div class="d-flex">
+                        <i class="fa fa-map-marker-alt pt-1"></i>
+                        <p>123 Main Street, Anytown, CA 12345 - USA</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa-solid fa-phone pt-1"></i>
+                        <p>Call Us: (+800) 345 678</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa fa-envelope pt-1"></i>
+                        <p>Email: Support@gmail.com</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="far fa-clock pt-1"></i>
+                        <p>Working time: 9.00 - 21.00</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-3 pe-lg-5">
+                    <p class="fw-bold text-white pb-3">Products</p>
+                    <div class="products d-flex flex-column">
+                        <a href="#" class="mb-3 fw-medium">Prices Drop</a>
+                        <a href="#" class="mb-3 fw-medium">New Products</a>
+                        <a href="#" class="mb-3 fw-medium">Best Sales</a>
+                        <a href="#" class="mb-3 fw-medium">Contact Us</a>
+                        <a href="#" class="fw-medium">Sitemap</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-3 pe-lg-5">
+                    <p class="fw-bold text-white pb-3">Our Company</p>
+                    <div class="our_company d-flex flex-column">
+                        <a href="#" class="mb-3 fw-medium">Delivery</a>
+                        <a href="#" class="mb-3 fw-medium">Legal Notice</a>
+                        <a href="#" class="mb-3 fw-medium">About Us</a>
+                        <a href="#" class="mb-3 fw-medium">Contact Us</a>
+                        <a href="#" class=" fw-medium">Sitemap</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 mt-lg-0 mt-3">
+                    <p class="fw-bold text-white pb-3">Opening Time</p>
+                    <div class="d-flex justify-content-between">
+                        <p class="text-white">Everyday</p>
+                        <p class="time text-white">9:00 - 22:00</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class="text-white">Saturday</p>
+                        <p class="time text-white">10:00 - 20:00</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class="text-white">Sunday</p>
+                        <p class="time text-white">12:00 - 20:00</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class="text-white">Thirsday</p>
+                        <p class="time text-white">Free Shipping</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class="text-white">Friday</p>
+                        <p class="time text-white">Sale Of 30%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class=" Copyright d-flex justify-content-between align-items-center pt-2 ">
+                <div>
+                    <p>&#169; Copyright 2023 <a class="link" href="#">Barber</a> - All Rights Reserved - Powered by
+                        <a class="link" href="#">BITM Batch-9</a>
+                    </p>
+                </div>
+                <div class="d-flex">
+                    <i class="fa-brands fa-cc-paypal fs-1 pe-2"></i>
+                    <i class="fa-brands fa-cc-visa fs-1 pe-2"></i>
+                    <i class="fa-brands fa-cc-mastercard fs-1 pe-2"></i>
+                    <i class="fa-brands fa-cc-discover fs-1 pe-2"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer part end -->
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.smartCart.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <script>
+        //veiw product
+        function clickimg(SmallImg) {
+            var MainImg = document.getElementById('MainImg');
+            MainImg.src = SmallImg.src
+        }
+
+        //shoping cart 
+
+        $(document).ready(function () {
+            // Initialize Smart Cart    	
+            $('#smartcart').smartCart();
+        });
+
+        // nevbar 
+
+
+        $(document).ready(function () {
+            $(Window).scroll(function () {
+                let scrollingpx = $(this).scrollTop();
+
+                if (scrollingpx > 260) {
+                    $('.navbar').addClass('navber_bg')
+                } else {
+                    $('.navbar').removeClass('navber_bg')
+
+                }
+            })
+            //back to top
+            $('.back_to_top').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 300)
+            });
+            $(Window).scroll(function () {
+                let scrollingpx = $(this).scrollTop();
+
+                if (scrollingpx > 300) {
+                    $('.back_to_top').show(500)
+                } else {
+                    $('.back_to_top').hide(500)
+                }
+                if (scrollingpx > 400) {
+                    $('.cart_btn').show(500)
+                } else {
+                    $('.cart_btn').hide(500)
+                }
+            })
+        })
+
+        //blog
+
+        var swiper = new Swiper(".slide-content", {
+            slidesPerView: 3,
+            spaceBetween: 25,
+            loop: true,
+            centerSlide: 'true',
+            fade: 'true',
+            grabCursor: 'true',
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                520: {
+                    slidesPerView: 2,
+                },
+                950: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>
